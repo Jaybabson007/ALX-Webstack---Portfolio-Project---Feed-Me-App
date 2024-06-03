@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Dashboard = () => {
+const RecipientDashboard = () => {
     return (
         <div>
-            <h1>Recipient Dashboard Page</h1>
+            <h1>Recipient Dashboard</h1>
         </div>
     );
 };

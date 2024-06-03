@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Dashboard = () => {
+const DonorDashboard = () => {
     return (
         <div>
-            <h1>Donor Dashboard Page</h1>
+            <h1>Donor Dashboard</h1>
         </div>
     );
 };
