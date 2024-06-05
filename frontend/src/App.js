@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import DonorDashboard from './pages/DonorDashboard';
 import RecipientDashboard from './pages/RecipientDashboard';
+import './styles/App.css';
 
 const App = () => {
     return (
@@ -21,3 +22,4 @@ const App = () => {
 };
 
 export default App;
+

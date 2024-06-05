@@ -1,0 +1,44 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+    flex: 1;
+}
+
+.about-us {
+    max-width: 60%;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-us .tagline {
+    font-size: 18px;
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-us .description {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-us .btn.signup-now-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.food-image {
+    max-width: 35%;
+    border-radius: 8px;
+}
+
