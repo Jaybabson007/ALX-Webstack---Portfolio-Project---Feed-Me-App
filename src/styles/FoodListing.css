@@ -1,0 +1,66 @@
+.food-listing-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 400px;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  
+  .form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form input,
+  .form-container form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  /* .image-container {
+    flex: 1;
+  }
+   */
+  .image-container img {
+    width: 60%;
+    height: auto;
+    float: right;
+    margin-top: 10%;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  

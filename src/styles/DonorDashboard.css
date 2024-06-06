@@ -1,0 +1,110 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+.dashboard-logo {
+    max-width: 150px;
+}
+
+.dashboard-main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+p {
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.donate-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #45a049;
+}
+
+.donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.donations-table th,
+.donations-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.donations-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-icon:hover {
+    color: #4CAF50;
+}
+
+.delete-icon:hover {
+    color: #f44336;
+}
+
+.dashboard-footer {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+}
+
+.footer-logo {
+    max-width: 100px;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-icons > * {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-social-icons > *:hover {
+    color: #4CAF50;
+}
