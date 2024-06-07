@@ -1,9 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/DonorDashboard.css';
 import { FaEdit, FaTrashAlt, FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
 import logo from '../assets/logo.png';
 
 const DonorDashboard = () => {
+    const navigate = useNavigate();
+
+    const handleDonateClick = () => {
+        navigate('/donate');
+    };
+
     return (
         <div className="dashboard-container">
             <header className="dashboard-header">
@@ -12,7 +19,7 @@ const DonorDashboard = () => {
             <main className="dashboard-main">
                 <h1>Welcome, Donor!</h1>
                 <p>Here is a list of your previous donations</p>
-                <button className="donate-button">Donate Food</button>
+                <button className="donate-button" onClick={handleDonateClick}>Donate Food</button>
                 <table className="donations-table">
                     <thead>
                         <tr>
